@@ -1,0 +1,20 @@
+{
+  "name": "ecom",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev:server": "cd backend && npm run dev",
+    "dev:client": "cd frontend && npm start",
+    "dev" : "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "build" : "cd frontend && npm run build"
+  },
+  "keywords": [
+    "rana's"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "concurrently": "^10.0.5"
+  }
+}
